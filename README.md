@@ -38,14 +38,14 @@ Diffusion eigenvectors in **8-component basaltic melts** (SiO<sub>2</sub>–TiO<
 
 ### MATLAB Codes
 
-3. **`code_global_fit.zip`**  
+3. **`code_global_fit`**  
    MATLAB program (`BFGS_main.m`) that uses **BFGS optimization** to obtain:
    - a temperature-independent eigenvector matrix [Q]
    - three sets of eigenvalues corresponding to **1260 °C, 1350 °C, and 1500 °C**  
    Includes subroutines and diffusion data from **27 diffusion couple experiments**.  
    See the `Readme` inside the folder for details.
 
-4. **`code_fit_Z6_vs_x_in_BS13&14C.zip`**  
+4. **`code_fit_Z6_vs_x_in_BS13&14C`**  
    MATLAB program (`Newton_main.m`) that uses the **Newton method** to fit the **Z <sub>6</sub> vs. x** diffusion profile in experiment **BS13&14C**, assuming the diffusion coefficient **λ<sub>6</sub>** increases exponentially with **Z<sub>6</sub>**.  
    See the `Readme` inside the folder for details.
 
