@@ -21,7 +21,7 @@ Multicomponent diffusion in natural silicate melts is a key process in magma mix
 - The **eigenvectors** of [D] define **(N−1) eigen-components** that diffuse independently.
 - The **eigenvalues** correspond to the diffusion coefficients of these eigen-components.
 
-Diffusion eigenvectors in **8-component basaltic melts** (SiO₂–TiO₂–Al₂O₃–FeO–MgO–CaO–Na₂O–K₂O) have been shown to be approximately **temperature independent**. In this study, diffusion data from multiple temperatures are simultaneously fitted using a **single eigenvector matrix [Q]**, further supporting the temperature independence of diffusion eigenvectors in basaltic melts.
+Diffusion eigenvectors in **8-component basaltic melts** (SiO<sub>2</sub>–TiO<sub>2</sub>–Al<sub>2</sub>O<sub>3</sub>–FeO–MgO–CaO–Na<sub>2</sub>O–K<sub>2</sub>O) have been shown to be approximately **temperature independent**. In this study, diffusion data from multiple temperatures are simultaneously fitted using a **single eigenvector matrix [Q]**, further supporting the temperature independence of diffusion eigenvectors in basaltic melts.
 
 
 ---
@@ -40,14 +40,15 @@ Diffusion eigenvectors in **8-component basaltic melts** (SiO₂–TiO₂–Al�
 
 3. **`code_global_fit.zip`**  
    MATLAB program (`BFGS_main.m`) that uses **BFGS optimization** to obtain:
-   - a temperature-independent eigenvector matrix \([Q]\)
+   - a temperature-independent eigenvector matrix [Q]
    - three sets of eigenvalues corresponding to **1260 °C, 1350 °C, and 1500 °C**  
    Includes subroutines and diffusion data from **27 diffusion couple experiments**.  
    See the `Readme` inside the folder for details.
 
 4. **`code_fit_Z6_vs_x_in_BS13&14C.zip`**  
-   MATLAB program (`Newton_main.m`) that uses the **Newton method** to fit the \(Z_6\) vs. \(x\) profile in experiment BS13&14C, assuming the diffusion coefficient \(\lambda_6\) increases exponentially with \(Z_6\).  
+   MATLAB program (`Newton_main.m`) that uses the **Newton method** to fit the **Z <sub>6</sub> vs. x** diffusion profile in experiment **BS13&14C**, assuming the diffusion coefficient **λ<sub>6</sub>** increases exponentially with **Z<sub>6</sub>**.  
    See the `Readme` inside the folder for details.
+
 
 ---
 
