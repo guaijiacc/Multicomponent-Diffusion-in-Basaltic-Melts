@@ -7,7 +7,8 @@ This GitHub repository contains **open-access data files and MATLAB codes** asso
 
 **Bai, B., Zhang, Y. (2025).**  
 *Multicomponent diffusion in basaltic melts: A temperature independent eigenvector matrix, and a multicomponent diffusion calculator.*  
-**Geochimica et Cosmochimica Acta**, **407**, 133–143.
+[**Geochimica et Cosmochimica Acta**, **407**, 133–143](https://doi.org/10.1016/j.gca.2025.09.002).
+
 
 The full archival version of this dataset is hosted on the **University of Michigan Deep Blue Data Repository**.  
 **Deep Blue link / DOI:** *(https://doi.org/10.7302/77zk-m861)*
